@@ -1,0 +1,72 @@
+.container {
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+/* ヘッダー01 */
+.header_01 {
+    color: #fff;
+    background: #000;
+}
+.header_01 > .container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+/* ロゴ */
+.area_logo_header .logo {
+    display: block;
+}
+.area_logo_header .logo img {
+    /* ロゴ画像はwidthではなくheightで指定すること */
+    /* 横幅指定だと画像が崩れることがあるらしい */
+    height: 45px;
+    vertical-align: bottom;
+}
+/* ナビゲーション */
+.area_nav_header {
+    margin-left: auto;
+    align-items: center;
+}
+/* リストナビ */
+.list_nav_header {
+    display: flex;
+}
+.list_nav_header li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.list_nav_header > li + li {
+    margin-left: 40px;
+}
+.list_nav_header a {
+    color: #fff;
+    font: 500 15px/1rem 'noto sans japanease',sans-serif;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+.list_nav_header .btn_contact {
+    color: #000;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 24px 0 48px;
+    background: #0cf;
+    border-radius: 2px;
+    position: relative;
+}
+.list_nav_header .btn_contact:before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url(../../images/cmn/img/ico/ico_mail_black.svg) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+}

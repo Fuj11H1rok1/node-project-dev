@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プログラミングの勉強</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container01">
+            <div>
+                <input type="text" size="50">
+            </div>
+            <div>
+                <input type="email" size="50" maxlength="128" placeholder="fujii@start-programming.net">
+            </div>
+            <div class="password_form">
+                <input type="password" size="50" maxlength="10">
+            </div>
+            <div class="submit_form">
+                <input type="submit" value="ログイン">
+            </div>
+        </div>
+        <div class="container02">
+            <form action="form.php" method="post">
+                <p>メールアドレス：<input type="text" name="email" size="50" maxlength="128" placeholder="fujii@start-programming.net"></p>
+                <p>パスワード：<input type="submit" value="ログイン"></p>
+            </form>
+        </div>
+        <div class="container03">
+            <p>
+                <input type="checkbox" name="programming">プログラミング
+                <input type="checkbox" name="soccer">サッカー
+                <input type="checkbox" name="baseball">野球
+                <input type="checkbox" name="swimming">スイミング
+            </p>
+            <p>
+                <input type="radio" name="gender">男性 
+                <input type="radio" name="gender">女性 
+                <input type="radio" name="gender">不明 
+            </p>
+            <select name="address" id="">
+                <option value="tokyo">東京</option>
+                <option value="yokohama">横浜</option>
+                <option value="nagoya">名古屋</option>
+                <option value="kyoto">京都</option>
+                <option value="osaka">大阪</option>
+                <option value="hiroshima">広島</option>
+                <option value="fukuoka">福岡</option>
+            </select>
+            <div class="row01">
+                <p>お問い合わせ内容</p>
+                <textarea name="" id="" cols="100" rows="5" placeholder="ご意見・ご感想をお聞かせください"></textarea>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

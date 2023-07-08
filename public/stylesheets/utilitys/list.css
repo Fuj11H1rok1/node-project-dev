@@ -1,0 +1,10 @@
+ol li::marker {
+    content:"スキル" counter(list-item) ".";
+    color: hsl(240, 50%, 50%);
+    font-size: 0.8em;
+    font-weight: 500;
+}
+ol li {
+    padding-left: 0.5em;
+    padding-bottom: 0.25em;
+}
