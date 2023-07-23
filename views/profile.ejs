@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>home</title>
-  <link rel="stylesheet" href="../public/stylesheets/profile.css">
-</head>
-<body>
-  <!-- startヘッダー -->
-  <header class="header_01">
-    <div class="header-container">
-      <!-- ロゴエリア -->
-      <div class="area_logo_header">
-        <a class="logo" href="/">
-          <img src="../public/images/cmn/img/logo/header_logo.png" alt="">
-        </a>
-      </div>
-      <!-- ナビゲーションエリア -->
-      <nav class="area_nav_header">
-        <ul class="list_nav_header">
-          <li>
-            <a href="">作品紹介</a>
-          </li>
-          <li>
-            <a href="">学習の振り返り</a>
-          </li>
-          <li>
-            <a href="">今後の目標</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header-underline"></div>
-  </header>
+<%- include('common/_header_stapro') %>
   <div class="wrapper">
     <!-- profileエリア -->
     <div class="profile-container">
@@ -87,10 +52,4 @@
     </div>
   </div>
   <!-- wrapperエリアここまで -->
-  <footer>
-    <div class="footer-area">
-      <h3>StartProgramming</h3>
-    </div>
-  </footer>
-</body>
-</html>
+  <%- include('common/_footer') %>

@@ -6,7 +6,7 @@ body {
 /* ヘッダー */
 .header_01 {
   color: #bcd537;
-  background: #d9eaec;
+  background: #fff;
 }
 /* ヘッダースタイル */
 .header-container {
@@ -69,7 +69,7 @@ body {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0;
-  background-color: #fff;
+  background-color: #d9eaec;
   padding: 1rem 1rem;
   justify-content: center;
 }
